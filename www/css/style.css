@@ -1,0 +1,34 @@
+body {
+  background: #000;
+  color: rgba(255, 255, 255, 0.87);
+}
+
+.page__header {
+  margin: 20;
+  padding: 40px 16px;
+}
+
+.page__center-content {
+  margin: 0 auto;
+  padding: 20vh 16px;
+  border-radius: 5px;
+  background-color: #000;
+  cursor: none;
+}
+
+.page__footer {
+  margin: 20;
+  padding: 40px 16px;
+}
+
+.content__digital-date {
+  font-size: 10vmin;
+  margin: 10px;
+}
+
+.content__digital-time {
+  font-size: 30vmin;
+  text-align: center;
+  margin: 10px;
+}
+/*# sourceMappingURL=style.css.map */

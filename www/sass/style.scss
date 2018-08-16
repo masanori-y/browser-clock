@@ -1,0 +1,38 @@
+$--theme-text: rgba(255, 255, 255, 0.87);
+$--thema-background: #000;  //#2f2f2f;
+$--thema-accent: #019fe6;
+$--thema-content-background: #000;  //#3f3f3f;
+
+body {
+    background: $--thema-background;
+    color: $--theme-text;
+}
+
+.page__header {
+    margin: 20;
+    padding: 40px 16px;
+}
+
+.page__center-content {
+    margin: 0 auto;
+    padding: 20vh 16px;
+    border-radius: 5px;
+    background-color: $--thema-content-background;
+    cursor: none;
+}
+
+.page__footer {
+    margin: 20;
+    padding: 40px 16px;
+}
+
+.content__digital-date {
+    font-size: 10vmin;
+    margin: 10px;
+}
+
+.content__digital-time {
+    font-size: 30vmin;
+    text-align: center;
+    margin: 10px;
+}
